@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pogotowie Ratunkowe</title>
+        <link rel="stylesheet" href="styl5.css"/>
+    </head>
+    <body>
+        <header>
+            <section>
+                <img src="obraz.jpg" alt="pogotowie"/>
+            </section>
+            <section>
+                <h1>Pogotowie<br> Ratunkowe</h1>
+            </section>
+            <section>
+                <p>Kontakt:<br> 022 222 11 333</p>
+            </section>
+        </header>
+        <main>
+            <h2>Dodaj nowe zgłoszenie</h2>
+            <form method="post" action="zgloszenie.php">
+                <label>
+                    Numer zespołu ratowniczego:<br>
+                    <input type="number" name="zespol"/>
+                </label><br>
+                <label>
+                    Numer despozytora:<br>
+                    <input type="number" name="dyspozytor"/>
+                </label><br>
+                <label>
+                    Adres:<br>
+                    <input type="text" name="adres" size="100"/>
+                </label><br>
+                <div>
+                    <input type="reset" value="WYCZYŚĆ"/>
+                    <input type="submit" value="ZGŁOŚ"/>
+                </div>
+            </form> 
+        </main>
+        <footer>
+            <section>
+                <h4>Numery alarmowe</h4>
+                <ul>
+                    <li>999</li>
+                    <li>112</li>
+                </ul>
+            </section>
+            <section>
+                <a href="kwerendy.txt" download>Pobierz kwerendy</a>
+            </section>
+            <section>
+                <p>Autor:<br>99999999999</p>
+            </section>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+-- kw1
+SELECT id, dataWyjazdu, cel, cena
+FROM wycieczki
+WHERE dostepna = 1;
+
+-- kw2
+
+SELECT nazwaPliku, podpis
+FROM zdjecia
+ORDER BY 2 ASC;
+
+-- kw 3
+
+SELECT nazwaPliku, cel FROM zdjecia z INNER JOIN wycieczki w on 
+w.id = z.id
+WHERE cena > 1000;
+
+
+-- kw4
+
+ALTER TABLE wycieczki ADD dataPrzyjazdu DATE
+AFTER dataWyjazdu;
+
+

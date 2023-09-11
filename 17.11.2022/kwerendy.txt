@@ -1,0 +1,9 @@
+CREATE TABLE `uzytkownicy` (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	login VARCHAR(50) NOT NULL,
+    haslo VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+INSERT INTO uzytkownicy (login, haslo) VALUES ('jan', 'jan123');

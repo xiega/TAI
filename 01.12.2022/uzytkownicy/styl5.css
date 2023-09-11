@@ -1,0 +1,37 @@
+* {font-family: Tahoma;
+    margin: 0;}
+
+header {background-color: #003d33;
+        color: white;
+        text-align: center;
+        height: 50px;}
+
+#h1 {width: 70%;}
+#h2 {width: 30%;}
+#hs {width: 100%;
+    display: flex;
+    flex-wrap: nowrap;}
+
+section {background-color: #26a69a;}
+
+#s1{height: 550px;
+    width: 30%;}
+#s2{height: 550px;
+    width: 70%;}
+#ss{display: flex;
+    flex-wrap: nowrap;}
+
+footer {background-color: #003d33;
+        color: white;}
+
+#card {width: 400px;
+        margin: 30px;
+        text-align: center;
+        border: 1px solid #003d33;}
+
+a {background-color: #003d33;
+        color: white;
+        width: 100%;
+        height: 30px;
+        margin: 0;}
+a:hover {background-color: #004c40;}
