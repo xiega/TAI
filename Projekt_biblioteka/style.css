@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color: #211833;
+    display: flex;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    height: 20%;
+    background-color: #e7ecf5;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    margin-left: 10px;
+}
+
+select {
+    margin-left: 10px;
+}
+
+
+article {
+    height: 70%;
+    background-color: #50b7e4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    display: flex;
+    background-color: #50b7e4;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#php {
+    display: flex;
+    background-color: #50b7e4;
+    height: 70%;
+    width: 100%;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.boxyy {
+    width: 50%;
+    height: 70px;
+    border-radius: 30px;
+    color: black;
+    background-color: #50b7e4;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: inset 0px 0px 23px 5px rgba(0, 0, 0, 0.19);
+-moz-box-shadow: inset 0px 0px 23px 5px rgba(0, 0, 0, 0.19);
+box-shadow: inset 0px 0px 23px 5px rgba(0, 0, 0, 0.19);
+}
+
+input {
+    background-color: #50b7e4;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 90px;
+}
+
+select {
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+#autor {
+    color: white;
+}
